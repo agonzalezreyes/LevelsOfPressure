@@ -1,5 +1,7 @@
 ## Levels of Pressure
 
+10/07/2022 - Updated settings and files to run on iOS 14
+
 11/11/2016 - version 1.1 If run on a 3D Touch device, also shows the 3D touch value as a colored pie
 chart, where maximum pressure is a 360° sweep.
 

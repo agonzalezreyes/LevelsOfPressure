@@ -207,7 +207,7 @@ static void DrawPie(CGContextRef c, CGPoint p, CGFloat value, CGFloat normalValu
   [self minusSet:[touches asSetOfLevTouchesInView:self]];
 }
 
-- (void)touchesCancelled:(nullable NSSet<UITouch *> *)touches withEvent:(nullable UIEvent *)event {
+- (void)touchesCancelled:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
   [self.myTouches removeAllObjects];
   self.lastIndex = 0;
   [self updateDisplay];
